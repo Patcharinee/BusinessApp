@@ -120,6 +120,14 @@ npm run build
 
 ## Deployment Options
 
+### GitHub Pages (Recommended)
+The easiest way to deploy your app:
+
+1. **Automatic Deployment**: Push to GitHub and let GitHub Actions handle the rest
+2. **Manual Deployment**: Build locally and upload the `dist` folder
+
+See [DEPLOYMENT.md](./DEPLOYMENT.md) for detailed instructions.
+
 ### Docker Deployment
 ```bash
 # Development
@@ -129,16 +137,10 @@ docker-compose up businessapp-dev
 docker-compose up businessapp-prod
 ```
 
-### Static Hosting
+### Other Static Hosting Options
 - **Netlify**: Drag and drop dist folder
 - **Vercel**: Connect GitHub repository
-- **GitHub Pages**: Use dist folder as source
-
-### Cloud Platforms
-- **AWS S3 + CloudFront**
-- **Google Cloud Storage**
-- **DigitalOcean App Platform**
-- **Azure Static Web Apps**
+- **Cloud Platforms**: AWS S3 + CloudFront, Google Cloud Storage, DigitalOcean App Platform, Azure Static Web Apps
 
 ## Project Structure
 
