@@ -37,7 +37,7 @@ This guide will help you deploy your React app to GitHub Pages.
 The GitHub Actions workflow will automatically:
 - Build your app when you push to main branch
 - Deploy to GitHub Pages
-- Your app will be available at: `https://patcharinee.github.io/BusinessApp/`
+- Your app will be available at: `https://Patcharinee.github.io/BusinessApp/`
 
 ## Method 2: Manual Deployment
 
