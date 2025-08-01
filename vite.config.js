@@ -6,7 +6,7 @@ module.exports = defineConfig({
   plugins: [react()],
   base: process.env.NODE_ENV === 'production' ? '/BusinessApp/' : '/',
   build: {
-    outDir: 'dist',
+    outDir: 'build',
     assetsDir: 'assets',
     sourcemap: false,
     rollupOptions: {
